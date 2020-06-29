@@ -1,3 +1,3 @@
 # toDoApp
 
- my little To Do App as a part of 100 Days Of Code Challenge 
+A little To Do App, first project of my 100DaysOfCode Challenge 📌
