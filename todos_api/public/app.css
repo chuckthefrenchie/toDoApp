@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    margin-top: 8em;
+  }
+
+h1 {
+    margin-left: 1em;
+}
+#todoInput {
+    padding: 0.8em;
+    width: 25em;
+}
+.task {
+    padding: 0.5em;
+}
+.done {
+    text-decoration: line-through;
+    color: black
+}
