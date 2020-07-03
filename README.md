@@ -9,4 +9,4 @@ Built with:
 * Mongo db
 * Mongoose
 
-![todoapp](./img/TodoApp.mov)
+![todoapp](/img/TodoApp.gif)
