@@ -61,7 +61,10 @@ p {
     text-decoration: line-through;
     color: #333333;
 }
-
+li {
+    list-style-type: circle;
+    /* list-style-type: none; */
+}
 li span {
     float: right;
     color: #c0392b;
