@@ -15,7 +15,25 @@ h1 {
 .task {
     padding: 0.5em;
 }
+.task:hover {
+    background: rgba (0, 0, 0, .02);
+    cursor: pointer;
+}
+.task:hover span {
+    opacity: 1;
+}
 .done {
     text-decoration: line-through;
     color: black
 }
+
+li span {
+    float: right;
+    color: #c0392b;
+    transition: all 0.3s;
+    opacity: 0;
+}
+
+li span:hover {
+    color: #e74c3c;
+
