@@ -3,9 +3,7 @@ body {
     flex-direction: column;  
     align-items: center;
     margin-top: 8em;
-    background-color: #eef2fe;
-     /* background-color: #C9D7FA; */
- 
+    background-color: #eef2fe; 
   }
 .one {
     display: flex;
@@ -15,9 +13,7 @@ body {
     width: 40em;
     height: 40em;
     border-radius: 25px;
-    /* font-family: 'Oxygen', sans-serif; */
     color: #333333;
-
 }
 h1 {
     font-family: 'Oxygen', sans-serif;
@@ -57,7 +53,7 @@ p {
 }
 .done {
     text-decoration: line-through;
-    color: black
+    color: #333333;
 }
 
 li span {
