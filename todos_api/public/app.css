@@ -3,24 +3,57 @@ body {
     flex-direction: column;  
     align-items: center;
     margin-top: 8em;
+    background-color: #eef2fe;
+     /* background-color: #C9D7FA; */
+ 
   }
+.one {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    background-color: white;
+    width: 40em;
+    height: 40em;
+    border-radius: 25px;
+    /* font-family: 'Oxygen', sans-serif; */
+    color: #333333;
 
+}
 h1 {
+    font-family: 'Oxygen', sans-serif;
+    margin-top: 3em;
     margin-left: 1em;
+    color: #333333;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 #todoInput {
+    margin-top: 1.5em;
     padding: 0.8em;
     width: 25em;
+    border: 0.2px solid #d1cdcd;
+    border-radius: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
 }
+
+
 .task {
+    margin-top: 0.5em;
     padding: 0.5em;
+    width: 15em;
+    font-family: 'Open Sans', sans-serif;
+    color: #333333;
 }
 .task:hover {
-    background: rgba (0, 0, 0, .02);
+    background: rgba(0, 0, 0, .01);
     cursor: pointer;
+    color: #ada6a6;
 }
 .task:hover span {
     opacity: 1;
+
 }
 .done {
     text-decoration: line-through;
@@ -36,4 +69,8 @@ li span {
 
 li span:hover {
     color: #e74c3c;
+}
 
+svg {
+    margin-top: 4em;
+}
